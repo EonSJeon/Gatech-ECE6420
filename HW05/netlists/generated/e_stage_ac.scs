@@ -1,0 +1,23 @@
+simulator lang=spectre
+global 0
+include "/tools/designkits/NCSU/FreePDK4514/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTH.inc"
+
+VDD (vdd 0) vsource dc=1
+VG  (Vin 0) vsource dc=1 mag=0
+IB  (S 0) isource dc=1.5m
+CS  (S 0) capacitor c=100f
+
+M2 (Vout Vin S 0) NMOS_VTH w=5u l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+
+L2    (vdd Vout) inductor l=3.83056640625e-09
+RP2   (vdd Vout) resistor r=1116.76255727
+CP2A  (vdd 0) capacitor c=3.83056640625e-14
+CP2B  (Vout 0) capacitor c=3.83056640625e-14
+CLOAD (Vout 0) capacitor c=150f
+
+ITEST (Vout 0) isource dc=0 type=sine mag=1 phase=0
+
+simulatorOptions options temp=27 tnom=27 gmin=1e-12 reltol=1e-4
+ac ac start=4G stop=8G lin=401
+save Vout Vin S
+saveOptions options save=allpub

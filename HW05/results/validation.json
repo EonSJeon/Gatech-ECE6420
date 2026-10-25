@@ -1,0 +1,368 @@
+{
+  "all_parts_complete": true,
+  "baseline_comparison": {
+    "b": {
+      "Cp_each_fF": {
+        "close_to_original": true,
+        "current": 79.238671875,
+        "difference": 0.0,
+        "original": 79.238671875
+      },
+      "L1_nH": {
+        "close_to_original": true,
+        "current": 7.9238671875,
+        "difference": 0.0,
+        "original": 7.9238671875
+      },
+      "Rp_ohm": {
+        "close_to_original": true,
+        "current": 2310.1226412283695,
+        "difference": 0.0,
+        "original": 2310.1226412283695
+      },
+      "W1_um": {
+        "close_to_original": true,
+        "current": 6.93,
+        "difference": 0.0,
+        "original": 6.93
+      },
+      "fres_Hz": {
+        "close_to_original": true,
+        "current": 5800198468.158679,
+        "difference": 0.0,
+        "original": 5800198468.158679
+      }
+    },
+    "c": {
+      "Cp_each_fF": {
+        "close_to_original": true,
+        "current": 57.22196656942816,
+        "difference": 0.0,
+        "original": 57.22196656942816
+      },
+      "L1_nH": {
+        "close_to_original": true,
+        "current": 5.722196656942816,
+        "difference": 0.0,
+        "original": 5.722196656942816
+      },
+      "Rin_ohm": {
+        "close_to_original": true,
+        "current": 50.17932544129177,
+        "difference": 0.0,
+        "original": 50.17932544129177
+      },
+      "Rp_ohm": {
+        "close_to_original": true,
+        "current": 1668.2480589298598,
+        "difference": 0.0,
+        "original": 1668.2480589298598
+      },
+      "W1_um": {
+        "close_to_original": true,
+        "current": 50.549069339999974,
+        "difference": 0.0,
+        "original": 50.549069339999974
+      },
+      "fres_Hz": {
+        "close_to_original": true,
+        "current": 5799204868.075491,
+        "difference": 0.0,
+        "original": 5799204868.075491
+      }
+    },
+    "d": {
+      "IIP3_Vpk": {
+        "close_to_original": true,
+        "current": 0.2988268567935031,
+        "difference": 0.0,
+        "original": 0.2988268567935031
+      },
+      "IIP3_dBV_peak": {
+        "close_to_original": true,
+        "current": -10.491607465575246,
+        "difference": 0.0,
+        "original": -10.491607465575246
+      },
+      "IIP3_dBm_available_50ohm": {
+        "close_to_original": true,
+        "current": -6.512207378854864,
+        "difference": 0.0,
+        "original": -6.512207378854864
+      },
+      "Vout_IM3_Vpk_geomean": {
+        "close_to_original": true,
+        "current": 0.0006541510341752507,
+        "difference": 0.0,
+        "original": 0.0006541510341752507
+      },
+      "Vout_fund_Vpk_geomean": {
+        "close_to_original": true,
+        "current": 0.14602051099368504,
+        "difference": 0.0,
+        "original": 0.14602051099368504
+      },
+      "fund_minus_IM3_dB": {
+        "close_to_original": true,
+        "current": 46.97471663163025,
+        "difference": 0.0,
+        "original": 46.97471663163025
+      },
+      "voltage_gain_from_Fig1_vin_source_dB": {
+        "close_to_original": true,
+        "current": 17.267243059506757,
+        "difference": 0.0,
+        "original": 17.267243059506757
+      },
+      "voltage_gain_from_VinNode_dB": {
+        "close_to_original": true,
+        "current": 19.60006142597856,
+        "difference": 0.0,
+        "original": 19.60006142597856
+      }
+    },
+    "e": {
+      "Cp_each_fF": {
+        "close_to_original": true,
+        "current": 38.3056640625,
+        "difference": 0.0,
+        "original": 38.3056640625
+      },
+      "IIP3_Vpk": {
+        "close_to_original": true,
+        "current": 0.8172085886519617,
+        "difference": 0.0,
+        "original": 0.8172085886519617
+      },
+      "IIP3_dBV_peak": {
+        "close_to_original": true,
+        "current": -1.753341553847278,
+        "difference": 0.0,
+        "original": -1.753341553847278
+      },
+      "L2_nH": {
+        "close_to_original": true,
+        "current": 3.83056640625,
+        "difference": 0.0,
+        "original": 3.83056640625
+      },
+      "Rp_ohm": {
+        "close_to_original": true,
+        "current": 1116.762557273353,
+        "difference": 0.0,
+        "original": 1116.762557273353
+      },
+      "Vout_IM3_Vpk_geomean": {
+        "close_to_original": true,
+        "current": 4.032575313771394e-06,
+        "difference": 0.0,
+        "original": 4.032575313771394e-06
+      },
+      "Vout_fund_Vpk_geomean": {
+        "close_to_original": true,
+        "current": 0.026928049765781555,
+        "difference": 0.0,
+        "original": 0.026928049765781555
+      },
+      "fres_Hz": {
+        "close_to_original": true,
+        "current": 5799905781.117703,
+        "difference": 0.0,
+        "original": 5799905781.117703
+      },
+      "fund_minus_IM3_dB": {
+        "close_to_original": true,
+        "current": 76.49244828164538,
+        "difference": 0.0,
+        "original": 76.49244828164538
+      },
+      "voltage_gain_dB": {
+        "close_to_original": true,
+        "current": 8.603663719729438,
+        "difference": 0.0,
+        "original": 8.603663719729438
+      }
+    },
+    "f": {
+      "IIP3_eq267_Vpk": {
+        "close_to_original": true,
+        "current": 0.10482345316664426,
+        "difference": 0.0,
+        "original": 0.10482345316664426
+      },
+      "IIP3_eq267_dBV_peak": {
+        "close_to_original": true,
+        "current": -19.59083075137553,
+        "difference": 0.0,
+        "original": -19.59083075137553
+      },
+      "IIP3_eq267_dBm_available_50ohm": {
+        "close_to_original": true,
+        "current": -15.611430664655154,
+        "difference": 0.0,
+        "original": -15.611430664655154
+      },
+      "IIP3_sim_Vpk": {
+        "close_to_original": true,
+        "current": 0.1469696383393285,
+        "difference": 0.0,
+        "original": 0.1469696383393285
+      },
+      "IIP3_sim_dBV_peak": {
+        "close_to_original": true,
+        "current": -16.655447490560185,
+        "difference": 0.0,
+        "original": -16.655447490560185
+      },
+      "IIP3_sim_dBm_available_50ohm": {
+        "close_to_original": true,
+        "current": -12.67604740383981,
+        "difference": 0.0,
+        "original": -12.67604740383981
+      },
+      "IIP3_sim_minus_eq267_dB": {
+        "close_to_original": true,
+        "current": 2.935383260815346,
+        "difference": 0.0,
+        "original": 2.935383260815346
+      },
+      "Vout2_IM3_Vpk_geomean": {
+        "close_to_original": true,
+        "current": 1.7725647585405422e-05,
+        "difference": 0.0,
+        "original": 1.7725647585405422e-05
+      },
+      "Vout2_fund_Vpk_geomean": {
+        "close_to_original": true,
+        "current": 0.061253923758644656,
+        "difference": 0.0,
+        "original": 0.061253923758644656
+      },
+      "eq267_alpha1_linear": {
+        "close_to_original": true,
+        "current": 7.300660498414855,
+        "difference": 0.0,
+        "original": 7.300660498414855
+      },
+      "fund_minus_IM3_dB": {
+        "close_to_original": true,
+        "current": 70.77063606133811,
+        "difference": 0.0,
+        "original": 70.77063606133811
+      },
+      "gain_pred_from_d_plus_e_dB": {
+        "close_to_original": true,
+        "current": 25.870906779236194,
+        "difference": 0.0,
+        "original": 25.870906779236194
+      },
+      "gain_sim_minus_pred_dB": {
+        "close_to_original": true,
+        "current": 1.9125370148542764,
+        "difference": 0.0,
+        "original": 1.9125370148542764
+      },
+      "overall_voltage_gain_dB": {
+        "close_to_original": true,
+        "current": 27.78344379409047,
+        "difference": 0.0,
+        "original": 27.78344379409047
+      },
+      "selected_ATONE_Vpk": {
+        "close_to_original": true,
+        "current": 0.0025,
+        "difference": 0.0,
+        "original": 0.0025
+      },
+      "stage1_gain_inside_cascade_dB": {
+        "close_to_original": true,
+        "current": 19.180795399695846,
+        "difference": 0.0,
+        "original": 19.180795399695846
+      },
+      "stage2_gain_inside_cascade_dB": {
+        "close_to_original": true,
+        "current": 8.602648394394624,
+        "difference": 0.0,
+        "original": 8.602648394394624
+      }
+    },
+    "g": {
+      "Rin_after_second_stage_ohm": {
+        "close_to_original": true,
+        "current": 22.25792229205718,
+        "difference": 0.0,
+        "original": 22.25792229205718
+      },
+      "Rin_before_second_stage_ohm": {
+        "close_to_original": true,
+        "current": 50.17932544129177,
+        "difference": 0.0,
+        "original": 50.17932544129177
+      },
+      "Rin_change_ohm": {
+        "close_to_original": true,
+        "current": -27.921403149234592,
+        "difference": 0.0,
+        "original": -27.921403149234592
+      },
+      "Rin_percent_change": {
+        "close_to_original": true,
+        "current": -55.64324132236842,
+        "difference": 0.0,
+        "original": -55.64324132236842
+      },
+      "Xin_after_second_stage_ohm": {
+        "close_to_original": true,
+        "current": 93.47290410058211,
+        "difference": 0.0,
+        "original": 93.47290410058211
+      },
+      "Zin_after_magnitude_ohm": {
+        "close_to_original": true,
+        "current": 96.08641374177661,
+        "difference": 0.0,
+        "original": 96.08641374177661
+      }
+    }
+  },
+  "curves": {
+    "b_ac": {
+      "part_completed_utc": "2026-10-25T20:21:43.999165+00:00",
+      "samples": 402
+    },
+    "c_ac": {
+      "part_completed_utc": "2026-10-25T20:29:11.946628+00:00",
+      "samples": 402
+    },
+    "c_zin": {
+      "part_completed_utc": "2026-10-25T20:29:11.946628+00:00",
+      "samples": 402
+    },
+    "d_tran": {
+      "part_completed_utc": "2026-10-25T20:29:36.548700+00:00",
+      "samples": 32001
+    },
+    "e_ac": {
+      "part_completed_utc": "2026-10-25T20:30:24.593179+00:00",
+      "samples": 402
+    },
+    "e_tran": {
+      "part_completed_utc": "2026-10-25T20:30:24.593179+00:00",
+      "samples": 32001
+    },
+    "f_tran": {
+      "part_completed_utc": "2026-10-25T20:31:17.239353+00:00",
+      "samples": 32001
+    },
+    "g_zin": {
+      "part_completed_utc": "2026-10-25T20:33:10.168400+00:00",
+      "samples": 402
+    }
+  },
+  "note": "Baseline differences are reported, not fitted away. Solution-PDF numbers are comparison references with different initial W1 and mixed conventions.",
+  "reference_netlists_unchanged": true,
+  "resonance_and_matching_targets_pass": true,
+  "validated_utc": "2026-10-25T20:33:12.030223+00:00",
+  "validation_scope": "Workflow reproduction, resonance/matching targets and data consistency; this does not certify the legacy IIP3 method. See spectral_review.json."
+}

@@ -1,0 +1,80 @@
+{
+  "note": "Original submission metrics are preserved. Floating-point window comparisons omit a boundary sample; the coherent check uses exactly 20000 samples. A single-point intercept still requires a cubic-region check.",
+  "parts": {
+    "d": {
+      "IIP3_dBV_peak": -10.492669518394855,
+      "IM3_Vpk_geomean": 0.0006542130720419408,
+      "coherent_minus_legacy_IIP3_dB": -0.0010620528196092494,
+      "coherent_samples": 20000,
+      "fundamental_Vpk_geomean": 0.14601325233567888,
+      "gain_dB": 17.267245581502586,
+      "input_Vpk_geomean": 0.019999999996115018,
+      "legacy_IIP3_dBV_peak": -10.491607465575246,
+      "legacy_selected_samples": 19999,
+      "method": "20000 uniformly spaced samples; exact 100-ns coherent window; complex projection",
+      "output_tone_Vpk": [
+        0.0006026116335536966,
+        0.14593652427852802,
+        0.14609002073362026,
+        0.000710233124950809
+      ],
+      "part_completed_utc": "2026-10-25T20:29:36.548700+00:00",
+      "tone_frequency_Hz": [
+        5770000000.0,
+        5790000000.0,
+        5810000000.0,
+        5830000000.0
+      ]
+    },
+    "e": {
+      "IIP3_dBV_peak": 10.313725294003383,
+      "IM3_Vpk_geomean": 2.505303370164928e-07,
+      "coherent_minus_legacy_IIP3_dB": 12.067066847850661,
+      "coherent_samples": 20000,
+      "fundamental_Vpk_geomean": 0.026929782895096864,
+      "gain_dB": 8.604657045527173,
+      "input_Vpk_geomean": 0.009999999998057505,
+      "legacy_IIP3_dBV_peak": -1.753341553847278,
+      "legacy_selected_samples": 19999,
+      "method": "20000 uniformly spaced samples; exact 100-ns coherent window; complex projection",
+      "output_tone_Vpk": [
+        2.5491498402209446e-07,
+        0.02689716342698974,
+        0.026962441922382875,
+        2.4622110781905766e-07
+      ],
+      "part_completed_utc": "2026-10-25T20:30:24.593179+00:00",
+      "tone_frequency_Hz": [
+        5770000000.0,
+        5790000000.0,
+        5810000000.0,
+        5830000000.0
+      ]
+    },
+    "f": {
+      "IIP3_dBV_peak": -17.191777160070686,
+      "IM3_Vpk_geomean": 2.0054986909427578e-05,
+      "coherent_minus_legacy_IIP3_dB": -0.5363296695105007,
+      "coherent_samples": 20000,
+      "fundamental_Vpk_geomean": 0.06125825899229005,
+      "gain_dB": 27.784492821377466,
+      "input_Vpk_geomean": 0.0024999999995143772,
+      "legacy_IIP3_dBV_peak": -16.655447490560185,
+      "legacy_selected_samples": 19999,
+      "method": "20000 uniformly spaced samples; exact 100-ns coherent window; complex projection",
+      "output_tone_Vpk": [
+        1.9654606145625102e-05,
+        0.061144915388180066,
+        0.06137181270009404,
+        2.0463523764216328e-05
+      ],
+      "part_completed_utc": "2026-10-25T20:31:17.239353+00:00",
+      "tone_frequency_Hz": [
+        5770000000.0,
+        5790000000.0,
+        5810000000.0,
+        5830000000.0
+      ]
+    }
+  }
+}

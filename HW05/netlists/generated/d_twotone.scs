@@ -1,0 +1,40 @@
+// Point Netlist Generated on: Oct 16 18:18:27 2026
+// Generated for: spectre
+// Design Netlist Generated on: Oct 16 18:18:26 2026
+// Design library name: ECE6420_HW5
+// Design cell name: CG_stage
+// Design view name: schematic
+simulator lang=spectre
+include "/nethome/sjeon84/Gatech-ECE6420/HW05/netlists/reference/ade_e.scs"
+global 0
+parameters temperature=27
+include "/tools/designkits/NCSU/FreePDK4514/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTH.inc"
+
+// Library name: ECE6420_HW5
+// Cell name: CG_stage
+// View name: schematic
+M4 (net10 net10 0 0) NMOS_VTH w=1uM l=50n as=9.45e-15 ad=9.45e-15 ps=300n \
+        pd=300n ld=105n ls=105n m=1
+M3 (VinNode net10 0 0) NMOS_VTH w=10u l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+M1 (Vout net2 VinNode 0) NMOS_VTH w=50.54906934u l=50n as=5.3076522807e-12 ad=5.3076522807e-12 ps=5.075906934e-05 pd=5.075906934e-05 ld=105n ls=105n m=1
+
+M2 (net2 Vout 0 0) NMOS_VTH w=5uM l=50n as=9.45e-15 ad=9.45e-15 ps=300n \
+        pd=300n ld=105n ls=105n m=1
+V0 (net2 0) vsource dc=1 type=dc
+I1 (net2 net10) isource dc=100u type=dc
+C3 (Vout 0) capacitor c=5.72219665694e-14
+C2 (net2 0) capacitor c=5.72219665694e-14
+C0 (net10 0) capacitor c=100f
+L1 (net2 Vout) inductor l=5.72219665694e-09
+RP (net2 Vout) resistor r=1668.24805893
+
+VT1 (tone1 0) vsource type=sine dc=0 ampl=0.02 freq=5790000000
+VT2 (VinSrc tone1) vsource type=sine dc=0 ampl=0.02 freq=5810000000
+RSRC (VinSrc VinPre) resistor r=50
+CIN_D (VinPre VinNode) capacitor c=100p
+
+simulatorOptions options temp=27 tnom=27 gmin=1e-12 reltol=1e-4
+tran tran stop=1.6e-07 maxstep=3e-12 strobeperiod=5e-12
+save Vout VinNode VinSrc
+saveOptions options save=allpub

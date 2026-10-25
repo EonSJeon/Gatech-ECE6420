@@ -1,0 +1,90 @@
+{
+  "original_directory": "ECE6420_HW5_full_submission",
+  "original_sha256": {
+    "d_twotone.scs": "b0088d9170ec741c1cf4bf3a99e1334dc6f4199f7f18bde710f2aed5af22301d",
+    "hw5_meta.json": "a75417c15d3919de32eb70dabb5c55d8dd7ea50bc5ed387fdcf596ac1c58da4f",
+    "hw5_f_sweep.py": "d090c563df552e3bb0b5d33163f0cc19bb1e6186cb1c5316221c4b4b5d418d2d",
+    "e_stage.scs": "be637d8e66622602456a0b3d57444ee2d37df545bcc158230471965901d105de",
+    "hw5_d.py": "4fe30c49bb9afa855e420195e0baa8c00c6bec74d8c4a5a1c896e003b64ba83a",
+    "g_rin_cascade.scs": "1d8540ff6a60560a057abb23b6a0d49166b26a6e44d86f1dbe085c468312fa8b",
+    "hw5_full_terminal.txt": "8729f97fc670253174ac9af945210b1c5154bba279c33ab10b7fe46c2c65fe09",
+    "run_all.sh": "620577c0a42c2add74f189b456425cc7c9215922a67f3b0e4b78a6e5916c1d07",
+    "hw5_e.py": "34b89a99fda756601c3ae5a57c2fa46b3a42ddac4cba48b0f2600c8a6b7a47d3",
+    "hw5_b.py": "9533fed069d038225d0362a5c2c012909761be0b3d5f62a829b466f7104ae279",
+    "hw5_f.py": "692765e0a20f24be1e911d41e52051e8fa872091a0f61a2862837233d5fa5205",
+    "hw5_g.py": "d10a68fb5094393db44ee09f8cca620491671dd35d85cabea7216b1df461c96b",
+    "hw5_c.py": "d396cbe382bbb566415a4ef09d0c7cf3472505054c762c734b2eb733fb1c52b2",
+    "tune_c.py": "8b266c2b65a4532becac94fecd608d17d779405c42f4c38056d61630071922aa",
+    "f_cascade.scs": "f6969adaee0df581e6e97c2ce38f022c2fbc4aede5e1f68e5cad18d3438a2f00",
+    "ade_e.scs": "d9db2b85663684a2319ed12bf2cd973cf970b7ed59ca1d4a909e06f23037b185",
+    "auto_input.scs": "8905ccd0d4d512ee87f727359e2fe45ac337c2f9dfd870145d0b929252e46af3",
+    "input.scs": "b74ef95ef1eb0edab0629cf8dc39c332ab0e7b29eaa6ac26c283e26437485269"
+  },
+  "note": "Original netlists, metadata and terminal transcript retained; Python entrypoints converted into notebooks and reusable lib modules.",
+  "baseline_outputs": {
+    "b": {
+      "Cp_each_fF": 79.238671875,
+      "L1_nH": 7.9238671875,
+      "Rp_ohm": 2310.1226412283695,
+      "W1_um": 6.93,
+      "fres_Hz": 5800198468.158679
+    },
+    "c": {
+      "Cp_each_fF": 57.22196656942816,
+      "L1_nH": 5.722196656942816,
+      "Rin_ohm": 50.17932544129177,
+      "Rp_ohm": 1668.2480589298598,
+      "W1_um": 50.549069339999974,
+      "fres_Hz": 5799204868.075491
+    },
+    "d": {
+      "IIP3_Vpk": 0.2988268567935031,
+      "IIP3_dBV_peak": -10.491607465575246,
+      "IIP3_dBm_available_50ohm": -6.512207378854864,
+      "Vout_IM3_Vpk_geomean": 0.0006541510341752507,
+      "Vout_fund_Vpk_geomean": 0.14602051099368504,
+      "fund_minus_IM3_dB": 46.97471663163025,
+      "voltage_gain_from_Fig1_vin_source_dB": 17.267243059506757,
+      "voltage_gain_from_VinNode_dB": 19.60006142597856
+    },
+    "e": {
+      "Cp_each_fF": 38.3056640625,
+      "IIP3_Vpk": 0.8172085886519617,
+      "IIP3_dBV_peak": -1.753341553847278,
+      "L2_nH": 3.83056640625,
+      "Rp_ohm": 1116.762557273353,
+      "Vout_IM3_Vpk_geomean": 4.032575313771394e-06,
+      "Vout_fund_Vpk_geomean": 0.026928049765781555,
+      "fres_Hz": 5799905781.117703,
+      "fund_minus_IM3_dB": 76.49244828164538,
+      "voltage_gain_dB": 8.603663719729438
+    },
+    "f": {
+      "IIP3_eq267_Vpk": 0.10482345316664426,
+      "IIP3_eq267_dBV_peak": -19.59083075137553,
+      "IIP3_eq267_dBm_available_50ohm": -15.611430664655154,
+      "IIP3_sim_Vpk": 0.1469696383393285,
+      "IIP3_sim_dBV_peak": -16.655447490560185,
+      "IIP3_sim_dBm_available_50ohm": -12.67604740383981,
+      "IIP3_sim_minus_eq267_dB": 2.935383260815346,
+      "Vout2_IM3_Vpk_geomean": 1.7725647585405422e-05,
+      "Vout2_fund_Vpk_geomean": 0.061253923758644656,
+      "eq267_alpha1_linear": 7.300660498414855,
+      "fund_minus_IM3_dB": 70.77063606133811,
+      "gain_pred_from_d_plus_e_dB": 25.870906779236194,
+      "gain_sim_minus_pred_dB": 1.9125370148542764,
+      "overall_voltage_gain_dB": 27.78344379409047,
+      "selected_ATONE_Vpk": 0.0025,
+      "stage1_gain_inside_cascade_dB": 19.180795399695846,
+      "stage2_gain_inside_cascade_dB": 8.602648394394624
+    },
+    "g": {
+      "Rin_after_second_stage_ohm": 22.25792229205718,
+      "Rin_before_second_stage_ohm": 50.17932544129177,
+      "Rin_change_ohm": -27.921403149234592,
+      "Rin_percent_change": -55.64324132236842,
+      "Xin_after_second_stage_ohm": 93.47290410058211,
+      "Zin_after_magnitude_ohm": 96.08641374177661
+    }
+  }
+}

@@ -1,0 +1,48 @@
+// Point Netlist Generated on: Oct 16 18:18:27 2026
+// Generated for: spectre
+// Design Netlist Generated on: Oct 16 18:18:26 2026
+// Design library name: ECE6420_HW5
+// Design cell name: CG_stage
+// Design view name: schematic
+simulator lang=spectre
+include "/nethome/sjeon84/Gatech-ECE6420/HW05/netlists/reference/ade_e.scs"
+global 0
+parameters temperature=27
+include "/tools/designkits/NCSU/FreePDK4514/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTH.inc"
+
+// Library name: ECE6420_HW5
+// Cell name: CG_stage
+// View name: schematic
+M4 (net10 net10 0 0) NMOS_VTH w=1uM l=50n as=9.45e-15 ad=9.45e-15 ps=300n \
+        pd=300n ld=105n ls=105n m=1
+M3 (VinNode net10 0 0) NMOS_VTH w=10u l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+M1 (Vout net2 VinNode 0) NMOS_VTH w=6.93u l=50n as=7.2765e-13 ad=7.2765e-13 ps=7.14e-06 pd=7.14e-06 ld=105n ls=105n m=1
+
+M2 (net2 Vout 0 0) NMOS_VTH w=5uM l=50n as=9.45e-15 ad=9.45e-15 ps=300n \
+        pd=300n ld=105n ls=105n m=1
+V0 (net2 0) vsource dc=1 type=dc
+I1 (net2 net10) isource dc=100u type=dc
+C3 (Vout 0) capacitor c=7.9238671875e-14
+C2 (net2 0) capacitor c=7.9238671875e-14
+C0 (net10 0) capacitor c=100f
+L1 (net2 Vout) inductor l=7.9238671875e-09
+RP (net2 Vout) resistor r=2310.12264123
+CIN_AUTO (VinNode InputTerm) capacitor c=100p
+RTERM_AUTO (InputTerm 0) resistor r=50
+I18 (Vout 0) isource dc=0 type=sine mag=1 phase=0
+I15 (0 VinNode) isource dc=0 type=sine mag=0 phase=0
+simulatorOptions options psfversion="1.4.0" temp=27 tnom=27 scalem=1.0 \
+    scale=1.0 gmin=1e-12 rforce=1 maxnotes=5 maxwarns=5 digits=5 cols=80 \
+    pivrel=1e-3 sensfile="/nethome/sjeon84/Gatech-ECE6420/HW05/simulation/stage1/sens.output" checklimitdest=sqldb 
+ac ac start=4G stop=8G lin=401 annotate=status 
+dcOp dc write="/nethome/sjeon84/Gatech-ECE6420/HW05/simulation/stage1/spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save Vout VinNode 
+saveOptions options save=allpub

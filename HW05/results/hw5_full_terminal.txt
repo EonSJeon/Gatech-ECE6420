@@ -1,0 +1,377 @@
+Script started on 2026-10-21 21:46:30-04:00 [TERM="xterm-256color" TTY="/dev/pts/34" COLUMNS="80" LINES="24"]
+============================================================
+ECE6420 HW5 clean full run: (b) -> (g)
+============================================================
+
+===== PYTHON SYNTAX CHECK =====
+Syntax check passed.
+
+============================================================
+RUNNING HW5(b)
+============================================================
+HW5(b): tune L1 for output resonance at 5.8 GHz
+RES  W=   6.930 um  L=  5.9400 nH  fres= 7.531421 GHz
+RES  W=   6.930 um  L=  9.9000 nH  fres= 4.721208 GHz
+RES  W=   6.930 um  L=  7.9200 nH  fres= 5.802800 GHz
+RES  W=   6.930 um  L=  8.9100 nH  fres= 5.206255 GHz
+RES  W=   6.930 um  L=  8.4150 nH  fres= 5.488308 GHz
+RES  W=   6.930 um  L=  8.1675 nH  fres= 5.641154 GHz
+RES  W=   6.930 um  L=  8.0437 nH  fres= 5.720829 GHz
+RES  W=   6.930 um  L=  7.9819 nH  fres= 5.761522 GHz
+RES  W=   6.930 um  L=  7.9509 nH  fres= 5.782087 GHz
+RES  W=   6.930 um  L=  7.9355 nH  fres= 5.792425 GHz
+RES  W=   6.930 um  L=  7.9277 nH  fres= 5.797608 GHz
+RES  W=   6.930 um  L=  7.9239 nH  fres= 5.800198 GHz
+
+===== HW5(b) RESULT =====
+W1   = 6.930000 um
+L1   = 7.923867 nH
+Rp   = 2310.123 ohm
+Cp   = 79.239 fF each
+fres = 5.80019847 GHz
+metadata -> /nethome/sjeon84/ECE6420_HW5/scripted/netlist_base/hw5_meta.json
+
+real	0m41.519s
+user	0m7.654s
+sys	0m15.500s
+
+============================================================
+RUNNING HW5(c)
+============================================================
+HW5(c): obtain Rin=50 ohm while re-tuning L1 to 5.8 GHz
+Loaded part (b): W1=6.930000 um, L1=7.923867 nH
+RES  W=   6.930 um  L=  6.1806 nH  fres= 7.267974 GHz
+RES  W=   6.930 um  L=  9.6671 nH  fres= 4.826977 GHz
+RES  W=   6.930 um  L=  7.9239 nH  fres= 5.800198 GHz
+RIN  W=   6.930 um  L=  7.9239 nH  Rin=  168.8094 ohm
+POINT W=6.930000 um  L=7.923867 nH  fres=5.800198 GHz  Rin=168.8094 ohm
+RES  W=   9.702 um  L=  6.1806 nH  fres= 7.146873 GHz
+RES  W=   9.702 um  L=  9.6671 nH  fres= 4.771023 GHz
+RES  W=   9.702 um  L=  7.9239 nH  fres= 5.720918 GHz
+RES  W=   9.702 um  L=  7.0522 nH  fres= 6.354391 GHz
+RES  W=   9.702 um  L=  7.4881 nH  fres= 6.020944 GHz
+RES  W=   9.702 um  L=  7.7060 nH  fres= 5.867081 GHz
+RES  W=   9.702 um  L=  7.8149 nH  fres= 5.793076 GHz
+RES  W=   9.702 um  L=  7.7604 nH  fres= 5.829838 GHz
+RES  W=   9.702 um  L=  7.7877 nH  fres= 5.811398 GHz
+RES  W=   9.702 um  L=  7.8013 nH  fres= 5.802222 GHz
+RES  W=   9.702 um  L=  7.8081 nH  fres= 5.797645 GHz
+RES  W=   9.702 um  L=  7.8047 nH  fres= 5.799930 GHz
+RIN  W=   9.702 um  L=  7.8047 nH  Rin=  155.5984 ohm
+POINT W=9.702000 um  L=7.804700 nH  fres=5.799930 GHz  Rin=155.5984 ohm
+RES  W=   4.950 um  L=  6.1806 nH  fres= 7.354287 GHz
+RES  W=   4.950 um  L=  9.6671 nH  fres= 4.866369 GHz
+RES  W=   4.950 um  L=  7.9239 nH  fres= 5.856297 GHz
+RES  W=   4.950 um  L=  8.7955 nH  fres= 5.315522 GHz
+RES  W=   4.950 um  L=  8.3597 nH  fres= 5.572783 GHz
+RES  W=   4.950 um  L=  8.1418 nH  fres= 5.711009 GHz
+RES  W=   4.950 um  L=  8.0328 nH  fres= 5.782740 GHz
+RES  W=   4.950 um  L=  7.9783 nH  fres= 5.819282 GHz
+RES  W=   4.950 um  L=  8.0056 nH  fres= 5.800951 GHz
+RIN  W=   4.950 um  L=  8.0056 nH  Rin=  185.3946 ohm
+POINT W=4.950000 um  L=8.005582 nH  fres=5.800951 GHz  Rin=185.3946 ohm
+RES  W=  13.583 um  L=  6.0877 nH  fres= 7.069203 GHz
+RES  W=  13.583 um  L=  9.5217 nH  fres= 4.755997 GHz
+RES  W=  13.583 um  L=  7.8047 nH  fres= 5.684668 GHz
+RES  W=  13.583 um  L=  6.9462 nH  fres= 6.301097 GHz
+RES  W=  13.583 um  L=  7.3754 nH  fres= 5.976900 GHz
+RES  W=  13.583 um  L=  7.5901 nH  fres= 5.827094 GHz
+RES  W=  13.583 um  L=  7.6974 nH  fres= 5.754994 GHz
+RES  W=  13.583 um  L=  7.6437 nH  fres= 5.790813 GHz
+RES  W=  13.583 um  L=  7.6169 nH  fres= 5.808896 GHz
+RES  W=  13.583 um  L=  7.6303 nH  fres= 5.799839 GHz
+RIN  W=  13.583 um  L=  7.6303 nH  Rin=  145.0913 ohm
+POINT W=13.582800 um  L=7.630313 nH  fres=5.799839 GHz  Rin=145.0913 ohm
+RES  W=  19.016 um  L=  5.9516 nH  fres= 6.957124 GHz
+RES  W=  19.016 um  L=  9.3090 nH  fres= 4.732435 GHz
+RES  W=  19.016 um  L=  7.6303 nH  fres= 5.630621 GHz
+RES  W=  19.016 um  L=  6.7910 nH  fres= 6.222992 GHz
+RES  W=  19.016 um  L=  7.2106 nH  fres= 5.911816 GHz
+RES  W=  19.016 um  L=  7.4205 nH  fres= 5.767754 GHz
+RES  W=  19.016 um  L=  7.3156 nH  fres= 5.838884 GHz
+RES  W=  19.016 um  L=  7.3680 nH  fres= 5.803100 GHz
+RES  W=  19.016 um  L=  7.3943 nH  fres= 5.785374 GHz
+RES  W=  19.016 um  L=  7.3811 nH  fres= 5.794223 GHz
+RES  W=  19.016 um  L=  7.3746 nH  fres= 5.798656 GHz
+RIN  W=  19.016 um  L=  7.3746 nH  Rin=  135.2028 ohm
+POINT W=19.015920 um  L=7.374579 nH  fres=5.798656 GHz  Rin=135.2028 ohm
+RES  W=  26.622 um  L=  5.7522 nH  fres= 6.795599 GHz
+RES  W=  26.622 um  L=  8.9970 nH  fres= 4.694153 GHz
+RES  W=  26.622 um  L=  7.3746 nH  fres= 5.548902 GHz
+RES  W=  26.622 um  L=  6.5634 nH  fres= 6.107797 GHz
+RES  W=  26.622 um  L=  6.9690 nH  fres= 5.814663 GHz
+RES  W=  26.622 um  L=  7.1718 nH  fres= 5.678610 GHz
+RES  W=  26.622 um  L=  7.0704 nH  fres= 5.745815 GHz
+RES  W=  26.622 um  L=  7.0197 nH  fres= 5.780024 GHz
+RES  W=  26.622 um  L=  6.9943 nH  fres= 5.797292 GHz
+RES  W=  26.622 um  L=  6.9817 nH  fres= 5.805965 GHz
+RES  W=  26.622 um  L=  6.9880 nH  fres= 5.801623 GHz
+RIN  W=  26.622 um  L=  6.9880 nH  Rin=  118.9609 ohm
+POINT W=26.622288 um  L=6.987989 nH  fres=5.801623 GHz  Rin=118.9609 ohm
+RES  W=  37.271 um  L=  5.4506 nH  fres= 6.577790 GHz
+RES  W=  37.271 um  L=  8.5253 nH  fres= 4.638314 GHz
+RES  W=  37.271 um  L=  6.9880 nH  fres= 5.434217 GHz
+RES  W=  37.271 um  L=  6.2193 nH  fres= 5.949196 GHz
+RES  W=  37.271 um  L=  6.6037 nH  fres= 5.679591 GHz
+RES  W=  37.271 um  L=  6.4115 nH  fres= 5.811137 GHz
+RES  W=  37.271 um  L=  6.5076 nH  fres= 5.744585 GHz
+RES  W=  37.271 um  L=  6.4595 nH  fres= 5.777662 GHz
+RES  W=  37.271 um  L=  6.4355 nH  fres= 5.794352 GHz
+RES  W=  37.271 um  L=  6.4235 nH  fres= 5.802733 GHz
+RES  W=  37.271 um  L=  6.4295 nH  fres= 5.798538 GHz
+RIN  W=  37.271 um  L=  6.4295 nH  Rin=   86.9460 ohm
+POINT W=37.271203 um  L=6.429496 nH  fres=5.798538 GHz  Rin=86.9460 ohm
+RES  W=  52.180 um  L=  5.0150 nH  fres= 6.299194 GHz
+RES  W=  52.180 um  L=  7.8440 nH  fres= 4.552377 GHz
+RES  W=  52.180 um  L=  6.4295 nH  fres= 5.274924 GHz
+RES  W=  52.180 um  L=  5.7223 nH  fres= 5.737889 GHz
+RES  W=  52.180 um  L=  5.3686 nH  fres= 6.004256 GHz
+RES  W=  52.180 um  L=  5.5454 nH  fres= 5.867783 GHz
+RES  W=  52.180 um  L=  5.6338 nH  fres= 5.802045 GHz
+RES  W=  52.180 um  L=  5.6780 nH  fres= 5.769771 GHz
+RES  W=  52.180 um  L=  5.6559 nH  fres= 5.785863 GHz
+RES  W=  52.180 um  L=  5.6449 nH  fres= 5.793943 GHz
+RES  W=  52.180 um  L=  5.6394 nH  fres= 5.797991 GHz
+RES  W=  52.180 um  L=  5.6366 nH  fres= 5.800014 GHz
+RIN  W=  52.180 um  L=  5.6366 nH  Rin=   46.9636 ohm
+POINT W=52.179684 um  L=5.636609 nH  fres=5.800014 GHz  Rin=46.9636 ohm
+RES  W=  44.725 um  L=  4.7058 nH  fres= 6.943079 GHz
+RES  W=  44.725 um  L=  7.3603 nH  fres= 4.989561 GHz
+RES  W=  44.725 um  L=  6.0331 nH  fres= 5.796646 GHz
+RES  W=  44.725 um  L=  5.3694 nH  fres= 6.314598 GHz
+RES  W=  44.725 um  L=  5.7012 nH  fres= 6.043815 GHz
+RES  W=  44.725 um  L=  5.8671 nH  fres= 5.917485 GHz
+RES  W=  44.725 um  L=  5.9501 nH  fres= 5.856404 GHz
+RES  W=  44.725 um  L=  5.9916 nH  fres= 5.826363 GHz
+RES  W=  44.725 um  L=  6.0123 nH  fres= 5.811461 GHz
+RES  W=  44.725 um  L=  6.0227 nH  fres= 5.804045 GHz
+RES  W=  44.725 um  L=  6.0279 nH  fres= 5.800337 GHz
+RIN  W=  44.725 um  L=  6.0279 nH  Rin=   63.9568 ohm
+POINT W=44.725444 um  L=6.027868 nH  fres=5.800337 GHz  Rin=63.9568 ohm
+RES  W=  48.453 um  L=  4.5491 nH  fres= 6.921282 GHz
+RES  W=  48.453 um  L=  7.1153 nH  fres= 5.006508 GHz
+RES  W=  48.453 um  L=  5.8322 nH  fres= 5.798991 GHz
+RIN  W=  48.453 um  L=  5.8322 nH  Rin=   54.7365 ohm
+POINT W=48.452564 um  L=5.832238 nH  fres=5.798991 GHz  Rin=54.7365 ohm
+RES  W=  50.316 um  L=  4.4729 nH  fres= 6.910115 GHz
+RES  W=  50.316 um  L=  6.9960 nH  fres= 5.013707 GHz
+RES  W=  50.316 um  L=  5.7344 nH  fres= 5.799138 GHz
+RIN  W=  50.316 um  L=  5.7344 nH  Rin=   50.6623 ohm
+POINT W=50.316124 um  L=5.734424 nH  fres=5.799138 GHz  Rin=50.6623 ohm
+RES  W=  51.248 um  L=  4.4347 nH  fres= 6.905077 GHz
+RES  W=  51.248 um  L=  6.9363 nH  fres= 5.017450 GHz
+RES  W=  51.248 um  L=  5.6855 nH  fres= 5.799476 GHz
+RIN  W=  51.248 um  L=  5.6855 nH  Rin=   48.7656 ohm
+POINT W=51.247904 um  L=5.685516 nH  fres=5.799476 GHz  Rin=48.7656 ohm
+RES  W=  50.782 um  L=  4.4538 nH  fres= 6.907544 GHz
+RES  W=  50.782 um  L=  6.9662 nH  fres= 5.015567 GHz
+RES  W=  50.782 um  L=  5.7100 nH  fres= 5.799283 GHz
+RIN  W=  50.782 um  L=  5.7100 nH  Rin=   49.7022 ohm
+POINT W=50.782014 um  L=5.709970 nH  fres=5.799283 GHz  Rin=49.7022 ohm
+RES  W=  50.549 um  L=  4.4633 nH  fres= 6.908818 GHz
+RES  W=  50.549 um  L=  6.9811 nH  fres= 5.014634 GHz
+RES  W=  50.549 um  L=  5.7222 nH  fres= 5.799205 GHz
+RIN  W=  50.549 um  L=  5.7222 nH  Rin=   50.1793 ohm
+POINT W=50.549069 um  L=5.722197 nH  fres=5.799205 GHz  Rin=50.1793 ohm
+
+===== HW5(c) RESULT =====
+W1   = 50.549069 um
+L1   = 5.722197 nH
+Rp   = 1668.248 ohm
+Cp   = 57.222 fF each
+fres = 5.79920487 GHz
+Rin  = 50.179325 ohm
+metadata -> /nethome/sjeon84/ECE6420_HW5/scripted/netlist_base/hw5_meta.json
+
+real	6m47.007s
+user	1m14.350s
+sys	2m35.668s
+
+============================================================
+RUNNING HW5(d)
+============================================================
+HW5(d): two-tone shortcut IIP3 + voltage gain
+Loaded part (c): W1=50.549069 um, L1=5.722197 nH
+
+===== HW5(d) RESULT =====
+tones              = 5.790, 5.810 GHz
+Vout fundamental   = 0.146021 Vpk
+Vout IM3           = 0.000654151 Vpk
+Delta              = 46.975 dB
+Voltage gain       = 17.267 dB (Vout/Fig.1 vin source)
+Gain from VinNode  = 19.600 dB
+IIP3               = -10.492 dBV
+IIP3               = 0.298827 Vpk
+IIP3               = -6.512 dBm (50-ohm available-power convention)
+metadata -> /nethome/sjeon84/ECE6420_HW5/scripted/netlist_base/hw5_meta.json
+Sanity check: change ATONE and confirm IIP3 stays similar.
+
+real	0m10.192s
+user	0m7.326s
+sys	0m1.351s
+
+============================================================
+RUNNING HW5(e)
+============================================================
+HW5(e): tune L2 and measure second-stage gain/IIP3
+RES L2=0.500000 nH -> 8.0000000 GHz
+RES L2=10.000000 nH -> 4.0000000 GHz
+RES L2=5.250000 nH -> 4.7828970 GHz
+RES L2=2.875000 nH -> 6.8666332 GHz
+RES L2=4.062500 nH -> 5.5985743 GHz
+RES L2=3.468750 nH -> 6.1526039 GHz
+RES L2=3.765625 nH -> 5.8595207 GHz
+RES L2=3.914062 nH -> 5.7254128 GHz
+RES L2=3.839844 nH -> 5.7915131 GHz
+RES L2=3.802734 nH -> 5.8252773 GHz
+RES L2=3.821289 nH -> 5.8083332 GHz
+RES L2=3.830566 nH -> 5.7999058 GHz
+
+===== HW5(e) RESULT =====
+L2   = 3.830566 nH
+Rp   = 1116.763 ohm
+Cp   = 38.306 fF each
+fres = 5.79990578 GHz
+Voltage gain = 8.604 dB
+Delta        = 76.492 dB
+IIP3         = -1.753 dBV
+IIP3         = 0.817209 Vpk
+metadata -> /nethome/sjeon84/ECE6420_HW5/scripted/netlist_base/hw5_meta.json
+
+real	1m22.839s
+user	0m12.302s
+sys	0m58.731s
+
+============================================================
+RUNNING HW5(f) AUTOMATIC IIP3 SWEEP
+============================================================
+HW5(f): automatic low-level two-tone sweep
+Using W1=50.549069 um, L1=5.722197 nH, L2=3.830566 nH
+
+--- ATONE = 5.000 mVpk/tone ---
+Gain=27.770 dB, IM3=0.000119656 Vpk, IIP3=-11.945 dBm
+
+--- ATONE = 2.500 mVpk/tone ---
+Gain=27.783 dB, IM3=1.77256e-05 Vpk, IIP3=-12.676 dBm
+
+--- ATONE = 1.800 mVpk/tone ---
+Gain=27.786 dB, IM3=5.09752e-06 Vpk, IIP3=-11.542 dBm
+
+--- ATONE = 1.250 mVpk/tone ---
+Gain=27.787 dB, IM3=4.06035e-06 Vpk, IIP3=-15.305 dBm
+
+===== LOCAL SLOPES =====
+5.000 -> 2.500 mV: fund slope=0.998, IM3 slope=2.755, score=0.247
+2.500 -> 1.800 mV: fund slope=0.999, IM3 slope=3.794, score=0.795
+1.800 -> 1.250 mV: fund slope=1.000, IM3 slope=0.624, score=2.377
+
+===== HW5(f) FINAL AUTOMATIC SELECTION =====
+Selected interval       = 5.000 -> 2.500 mV
+Selected ATONE          = 2.500 mVpk/tone
+Overall voltage gain    = 27.783 dB
+Cascade IIP3(sim)       = -12.676 dBm
+Cascade IIP3(sim)       = 0.14697 Vpk
+
+----- Comparison -----
+Gain predicted (d)+(e)  = 25.871 dB
+Gain sim - predicted    = +1.913 dB
+Eq.(2.67) IIP3          = -15.611 dBm
+IIP3 sim - Eq.(2.67)    = +2.935 dB
+
+metadata -> /nethome/sjeon84/ECE6420_HW5/scripted/netlist_base/hw5_meta.json
+
+real	0m45.628s
+user	0m31.847s
+sys	0m8.259s
+
+============================================================
+RUNNING HW5(g)
+============================================================
+HW5(g): measure first-stage Rin after adding the real second stage
+Loaded (c): Rin before = 50.179325 ohm
+Using W1=50.549069 um, L1=5.722197 nH, L2=3.830566 nH
+
+===== HW5(g) RESULT =====
+Rin before stage 2     = 50.179325 ohm
+Zin after stage 2      = 22.257922 +93.472904j ohm
+Rin after stage 2      = 22.257922 ohm
+Delta Rin              = -27.921403 ohm
+Percent change         = -55.643 %
+
+Physical reason: replacing the dummy capacitive load with the actual second-stage input changes the impedance seen at the first-stage drain. Because the real MOSFET is not perfectly unilateral (finite ro and parasitic capacitances/feedback), that drain loading can be reflected back to the common-gate input impedance.
+
+metadata -> /nethome/sjeon84/ECE6420_HW5/scripted/netlist_base/hw5_meta.json
+netlist  -> /nethome/sjeon84/ECE6420_HW5/scripted/netlist_base/g_rin_cascade.scs
+
+real	0m3.186s
+user	0m0.634s
+sys	0m1.239s
+
+============================================================
+VERIFYING METADATA
+============================================================
+(b) complete
+(c) complete
+(d) complete
+(e) complete
+(f) complete
+(g) complete
+
+All parts (b)-(g) complete.
+
+============================================================
+FINAL FILES
+============================================================
+ade_e.scs
+auto_input.scs
+.calcValValue
+.CG_stage.parameters
+.control
+.controlStatements
+.definitionFiles
+.designVariables
+d_twotone.scs
+e_stage.scs
+f_cascade.scs
+g_rin_cascade.scs
+hw5_b.py
+hw5_c.py
+hw5_d.py
+hw5_e.py
+hw5_f.py
+hw5_f_sweep.py
+hw5_full_terminal.txt
+hw5_g.py
+hw5_meta.json
+.iChips
+.iChipsTable
+.ignore_dspf_blocks_used
+.includedModels
+input.scs
+.__MARKER_FILE__
+.__master.optionFile
+.__master.termorder
+.modelFiles
+.netlistComplete
+.netlistPointTimeStamp
+.nfssync
+.otherParams
+run_all.sh
+.specialFilesInclude
+.spectre_port
+.stimulusFile
+.syncflag
+.thermalNode
+.tries
+.trynfssync
+tune_c.py
+.vdsenv.il
+.vdsinit.il
+
+FULL HW5 RUN COMPLETE.
+
+real	9m50.787s
+user	2m14.284s
+sys	4m0.821s
+
+Script done on 2026-10-21 21:56:21-04:00 [COMMAND_EXIT_CODE="0"]

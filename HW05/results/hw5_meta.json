@@ -1,0 +1,375 @@
+{
+  "created_utc": "2026-10-22T01:47:12.793665+00:00",
+  "environment": {
+    "f0_Hz": 5800000000.0,
+    "inductor_Q": 8.0,
+    "input_scs_sha256": "b74ef95ef1eb0edab0629cf8dc39c332ab0e7b29eaa6ac26c283e26437485269",
+    "license_server": "5280@ece-winlic.ece.gatech.edu:1055@ansyslic.ecs.gatech.edu",
+    "model_file": "/tools/designkits/NCSU/FreePDK4514/ncsu_basekit/models/hspice/tran_models/models_nom/NMOS_VTH.inc",
+    "spectre": "/tools/software/cadence/spectre/latest/tools.lnx86/bin/spectre",
+    "tune_c_py_sha256": "89d03c4386e28cd409f809ca6a74dd70b361a496bea98f1474ff4cdea62abdb7"
+  },
+  "parts": {
+    "b": {
+      "completed_utc": "2026-10-25T20:41:13.947584+00:00",
+      "depends_on": [],
+      "inputs": {
+        "Cp_rule_fF_per_nH_each": 10.0,
+        "Q": 8.0,
+        "W1_um_from_part_a": 6.93,
+        "input_termination": "VinNode--100pF--50ohm--AC_ground",
+        "target_fres_Hz": 5800000000.0
+      },
+      "outputs": {
+        "Cp_each_fF": 79.238671875,
+        "L1_nH": 7.9238671875,
+        "Rp_ohm": 2310.1226412283695,
+        "W1_um": 6.93,
+        "fres_Hz": 5800198468.158679
+      },
+      "status": "complete"
+    },
+    "c": {
+      "completed_utc": "2026-10-25T20:29:11.946628+00:00",
+      "depends_on": [
+        "b"
+      ],
+      "inputs": {
+        "Rin_measurement": "1A_AC_into_VinNode_with_50ohm_source_branch_removed",
+        "target_Rin_ohm": 50.0,
+        "target_fres_Hz": 5800000000.0
+      },
+      "outputs": {
+        "Cp_each_fF": 57.22196656942816,
+        "L1_nH": 5.722196656942816,
+        "Rin_ohm": 50.17932544129177,
+        "Rp_ohm": 1668.2480589298598,
+        "W1_um": 50.549069339999974,
+        "fres_Hz": 5799204868.075491
+      },
+      "scan_points": [
+        {
+          "L1_nH": 8.005582067871094,
+          "Rin_ohm": 185.3945867742263,
+          "W1_um": 4.95,
+          "fres_Hz": 5800951004.079649
+        },
+        {
+          "L1_nH": 7.923867187500001,
+          "Rin_ohm": 168.80938788408486,
+          "W1_um": 6.93,
+          "fres_Hz": 5800198468.158679
+        },
+        {
+          "L1_nH": 7.804699653625489,
+          "Rin_ohm": 155.59840474624983,
+          "W1_um": 9.701999999999998,
+          "fres_Hz": 5799929625.36777
+        },
+        {
+          "L1_nH": 7.630313395739795,
+          "Rin_ohm": 145.0913232664092,
+          "W1_um": 13.582799999999997,
+          "fres_Hz": 5799839472.143061
+        },
+        {
+          "L1_nH": 7.374578673335703,
+          "Rin_ohm": 135.20280763462682,
+          "W1_um": 19.015919999999994,
+          "fres_Hz": 5798655672.664706
+        },
+        {
+          "L1_nH": 6.987989431944433,
+          "Rin_ohm": 118.96085561410194,
+          "W1_um": 26.62228799999999,
+          "fres_Hz": 5801622523.888806
+        },
+        {
+          "L1_nH": 6.42949621406325,
+          "Rin_ohm": 86.94597440940915,
+          "W1_um": 37.27120319999998,
+          "fres_Hz": 5798537626.232673
+        },
+        {
+          "L1_nH": 6.027867818426431,
+          "Rin_ohm": 63.95683677528156,
+          "W1_um": 44.725443839999976,
+          "fres_Hz": 5800337494.99642
+        },
+        {
+          "L1_nH": 5.832238275076917,
+          "Rin_ohm": 54.73646212759688,
+          "W1_um": 48.45256415999997,
+          "fres_Hz": 5798990626.351445
+        },
+        {
+          "L1_nH": 5.7344235034021604,
+          "Rin_ohm": 50.66234340361517,
+          "W1_um": 50.31612431999997,
+          "fres_Hz": 5799138072.147836
+        },
+        {
+          "L1_nH": 5.722196656942816,
+          "Rin_ohm": 50.17932544129177,
+          "W1_um": 50.549069339999974,
+          "fres_Hz": 5799204868.075491
+        },
+        {
+          "L1_nH": 5.7099698104834715,
+          "Rin_ohm": 49.70219600790198,
+          "W1_um": 50.78201435999997,
+          "fres_Hz": 5799283310.915933
+        },
+        {
+          "L1_nH": 5.685516117564782,
+          "Rin_ohm": 48.765648189962945,
+          "W1_um": 51.24790439999997,
+          "fres_Hz": 5799476227.635006
+        },
+        {
+          "L1_nH": 5.636608731727403,
+          "Rin_ohm": 46.96362092846521,
+          "W1_um": 52.17968447999997,
+          "fres_Hz": 5800013871.669128
+        }
+      ],
+      "stale_reason": "An upstream notebook was rerun; execute this part again.",
+      "status": "stale",
+      "upstream": {
+        "b_L1_nH": 7.9238671875,
+        "b_W1_um": 6.93
+      }
+    },
+    "d": {
+      "completed_utc": "2026-10-25T20:29:36.548700+00:00",
+      "depends_on": [
+        "c"
+      ],
+      "inputs": {
+        "f1_Hz": 5790000000.0,
+        "f2_Hz": 5810000000.0,
+        "open_circuit_tone_Vpk_each": 0.02,
+        "shortcut_rule": "IIP3_log = input_log + (fundamental_minus_IM3)_dB/2",
+        "source_resistance_ohm": 50.0
+      },
+      "outputs": {
+        "IIP3_Vpk": 0.2988268567935031,
+        "IIP3_dBV_peak": -10.491607465575246,
+        "IIP3_dBm_available_50ohm": -6.512207378854864,
+        "Vout_IM3_Vpk_geomean": 0.0006541510341752507,
+        "Vout_fund_Vpk_geomean": 0.14602051099368504,
+        "fund_minus_IM3_dB": 46.97471663163025,
+        "voltage_gain_from_Fig1_vin_source_dB": 17.267243059506757,
+        "voltage_gain_from_VinNode_dB": 19.60006142597856
+      },
+      "stale_reason": "An upstream notebook was rerun; execute this part again.",
+      "status": "stale",
+      "upstream": {
+        "c_L1_nH": 5.722196656942816,
+        "c_Rin_ohm": 50.17932544129177,
+        "c_W1_um": 50.549069339999974
+      }
+    },
+    "e": {
+      "completed_utc": "2026-10-25T20:30:24.593179+00:00",
+      "depends_on": [],
+      "inputs": {
+        "L_um": 0.05,
+        "W_um": 5.0,
+        "device": "NMOS_VTH",
+        "f1_Hz": 5790000000.0,
+        "f2_Hz": 5810000000.0,
+        "gate_bias_V": 1.0,
+        "output_load_fF": 150.0,
+        "source_bypass_fF": 100.0,
+        "source_current_mA": 1.5,
+        "tone_Vpk_each": 0.01
+      },
+      "outputs": {
+        "Cp_each_fF": 38.3056640625,
+        "IIP3_Vpk": 0.8172085886519617,
+        "IIP3_dBV_peak": -1.753341553847278,
+        "L2_nH": 3.83056640625,
+        "Rp_ohm": 1116.762557273353,
+        "Vout_IM3_Vpk_geomean": 4.032575313771394e-06,
+        "Vout_fund_Vpk_geomean": 0.026928049765781555,
+        "fres_Hz": 5799905781.117703,
+        "fund_minus_IM3_dB": 76.49244828164538,
+        "voltage_gain_dB": 8.603663719729438
+      },
+      "status": "complete"
+    },
+    "f": {
+      "completed_utc": "2026-10-25T20:31:17.239353+00:00",
+      "depends_on": [
+        "c",
+        "d",
+        "e"
+      ],
+      "method": "automatic two-tone amplitude sweep; choose lower-amplitude endpoint of the adjacent interval whose measured slopes are closest to fundamental~A^1 and IM3~A^3",
+      "outputs": {
+        "IIP3_eq267_Vpk": 0.10482345316664426,
+        "IIP3_eq267_dBV_peak": -19.59083075137553,
+        "IIP3_eq267_dBm_available_50ohm": -15.611430664655154,
+        "IIP3_sim_Vpk": 0.1469696383393285,
+        "IIP3_sim_dBV_peak": -16.655447490560185,
+        "IIP3_sim_dBm_available_50ohm": -12.67604740383981,
+        "IIP3_sim_minus_eq267_dB": 2.935383260815346,
+        "Vout2_IM3_Vpk_geomean": 1.7725647585405422e-05,
+        "Vout2_fund_Vpk_geomean": 0.061253923758644656,
+        "eq267_alpha1_linear": 7.300660498414855,
+        "fund_minus_IM3_dB": 70.77063606133811,
+        "gain_pred_from_d_plus_e_dB": 25.870906779236194,
+        "gain_sim_minus_pred_dB": 1.9125370148542764,
+        "overall_voltage_gain_dB": 27.78344379409047,
+        "selected_ATONE_Vpk": 0.0025,
+        "stage1_gain_inside_cascade_dB": 19.180795399695846,
+        "stage2_gain_inside_cascade_dB": 8.602648394394624
+      },
+      "stale_reason": "An upstream notebook was rerun; execute this part again.",
+      "status": "stale",
+      "sweep": {
+        "ATONE_values_Vpk": [
+          0.005,
+          0.0025,
+          0.0018,
+          0.00125
+        ],
+        "local_slopes": [
+          {
+            "IM3_slope": 2.7549780789862375,
+            "cubicity_score": 0.2472691966372157,
+            "fundamental_slope": 0.9977527243765468,
+            "high_ATONE_Vpk": 0.005,
+            "low_ATONE_Vpk": 0.0025
+          },
+          {
+            "IM3_slope": 3.793739357345854,
+            "cubicity_score": 0.7946111593824579,
+            "fundamental_slope": 0.9991281979633964,
+            "high_ATONE_Vpk": 0.0025,
+            "low_ATONE_Vpk": 0.0018
+          },
+          {
+            "IM3_slope": 0.6238562135649803,
+            "cubicity_score": 2.37660120329872,
+            "fundamental_slope": 0.9995425831362996,
+            "high_ATONE_Vpk": 0.0018,
+            "low_ATONE_Vpk": 0.00125
+          }
+        ],
+        "points": [
+          {
+            "ATONE_nominal_Vpk": 0.005,
+            "IIP3_sim_Vpk": 0.15987069048669658,
+            "IIP3_sim_dBV_peak": -15.924622986068485,
+            "IIP3_sim_dBm_available_50ohm": -11.94522289934811,
+            "Vout2_IM3_Vpk_geomean": 0.00011965563331358901,
+            "Vout2_fund_Vpk_geomean": 0.12231716647967399,
+            "fund_minus_IM3_dB": 60.19108524376226,
+            "input_tone_measured_Vpk": 0.005000250012495089,
+            "overall_gain_from_VinNode_dB": 29.54650005597559,
+            "overall_voltage_gain_dB": 27.769913846666793,
+            "stage1_gain_inside_cascade_dB": 19.171688045084455,
+            "stage2_gain_inside_cascade_dB": 8.598225801582336
+          },
+          {
+            "ATONE_nominal_Vpk": 0.0025,
+            "IIP3_sim_Vpk": 0.1469696383393285,
+            "IIP3_sim_dBV_peak": -16.655447490560185,
+            "IIP3_sim_dBm_available_50ohm": -12.67604740383981,
+            "Vout2_IM3_Vpk_geomean": 1.7725647585405422e-05,
+            "Vout2_fund_Vpk_geomean": 0.061253923758644656,
+            "fund_minus_IM3_dB": 70.77063606133811,
+            "input_tone_measured_Vpk": 0.0025001250062475443,
+            "overall_gain_from_VinNode_dB": 29.54770214930108,
+            "overall_voltage_gain_dB": 27.78344379409047,
+            "stage1_gain_inside_cascade_dB": 19.180795399695846,
+            "stage2_gain_inside_cascade_dB": 8.602648394394624
+          },
+          {
+            "ATONE_nominal_Vpk": 0.0018,
+            "IIP3_sim_Vpk": 0.1674596660046544,
+            "IIP3_sim_dBV_peak": -15.521795586390674,
+            "IIP3_sim_dBm_available_50ohm": -11.542395499670299,
+            "Vout2_IM3_Vpk_geomean": 5.0975182261800205e-06,
+            "Vout2_fund_Vpk_geomean": 0.044115457545821614,
+            "fund_minus_IM3_dB": 78.74464001242637,
+            "input_tone_measured_Vpk": 0.0018000900044982339,
+            "overall_gain_from_VinNode_dB": 29.547875396921896,
+            "overall_voltage_gain_dB": 27.785931350493836,
+            "stage1_gain_inside_cascade_dB": 19.182688753657217,
+            "stage2_gain_inside_cascade_dB": 8.603242596836619
+          },
+          {
+            "ATONE_nominal_Vpk": 0.00125,
+            "IIP3_sim_Vpk": 0.10859264557919955,
+            "IIP3_sim_dBV_peak": -19.283991725610996,
+            "IIP3_sim_dBm_available_50ohm": -15.30459163889062,
+            "Vout2_IM3_Vpk_geomean": 4.060348985048572e-06,
+            "Vout2_fund_Vpk_geomean": 0.030640844686899142,
+            "fund_minus_IM3_dB": 77.55474741779574,
+            "input_tone_measured_Vpk": 0.001250062503123772,
+            "overall_gain_from_VinNode_dB": 29.54797609286416,
+            "overall_voltage_gain_dB": 27.787380103983075,
+            "stage1_gain_inside_cascade_dB": 19.183823161946453,
+            "stage2_gain_inside_cascade_dB": 8.603556942036628
+          }
+        ],
+        "selected_interval": {
+          "IM3_slope": 2.7549780789862375,
+          "cubicity_score": 0.2472691966372157,
+          "fundamental_slope": 0.9977527243765468,
+          "high_ATONE_Vpk": 0.005,
+          "low_ATONE_Vpk": 0.0025
+        },
+        "selection_rule": "minimum |fundamental_slope-1| + |IM3_slope-3|; then use the lower-amplitude endpoint"
+      },
+      "upstream": {
+        "c_L1_nH": 5.722196656942816,
+        "c_W1_um": 50.549069339999974,
+        "d_IIP3_Vpk": 0.2988268567935031,
+        "d_gain1_dB": 17.267243059506757,
+        "e_IIP3_Vpk": 0.8172085886519617,
+        "e_L2_nH": 3.83056640625,
+        "e_gain2_dB": 8.603663719729438
+      }
+    },
+    "g": {
+      "completed_utc": "2026-10-25T20:33:10.168400+00:00",
+      "depends_on": [
+        "c",
+        "e",
+        "f"
+      ],
+      "inputs": {
+        "frequency_Hz": 5800000000.0,
+        "netlist": "/nethome/sjeon84/Gatech-ECE6420/HW05/netlists/generated/g_rin_cascade.scs",
+        "result_file": "/nethome/sjeon84/Gatech-ECE6420/HW05/simulation/g/ac.ac",
+        "source_termination_present": false,
+        "test_current_A": 1.0,
+        "topology": "same cascade as part (f): Fig.1 dummy M2 removed and replaced by the actual Fig.3 second stage"
+      },
+      "method": "AC small-signal simulation of the actual cascade; 1-A current injected into VinNode with the external 50-ohm source branch removed",
+      "outputs": {
+        "Rin_after_second_stage_ohm": 22.25792229205718,
+        "Rin_before_second_stage_ohm": 50.17932544129177,
+        "Rin_change_ohm": -27.921403149234592,
+        "Rin_percent_change": -55.64324132236842,
+        "Xin_after_second_stage_ohm": 93.47290410058211,
+        "Zin_after_magnitude_ohm": 96.08641374177661
+      },
+      "stale_reason": "An upstream notebook was rerun; execute this part again.",
+      "status": "stale",
+      "upstream": {
+        "c_L1_nH": 5.722196656942816,
+        "c_Rin_before_ohm": 50.17932544129177,
+        "c_W1_um": 50.549069339999974,
+        "e_L2_nH": 3.83056640625,
+        "f_status": "complete"
+      }
+    }
+  },
+  "schema": "ECE6420_HW5_META_v1",
+  "updated_utc": "2026-10-25T20:41:13.949095+00:00"
+}
